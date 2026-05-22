@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.faust.application</groupId>
+        <artifactId>application-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.faust.ticketing</groupId>
+    <artifactId>ticketing-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>ticketing-ear</module>
+        <module>ticketing-core</module>
+        <module>ticketing-persistence</module>
+        <module>ticketing-rest</module>
+    </modules>
+
+    <properties>
+        <version.jjwt-api>0.10.7</version.jjwt-api>
+        <version.jjwt-impl>0.10.7</version.jjwt-impl>
+        <version.jjwt-jackson>0.10.7</version.jjwt-jackson>
+        <version.freemarker>2.3.30</version.freemarker>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.faust.ticketing</groupId>
+                <artifactId>ticketing-core</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <type>ejb</type>
+            </dependency>
+            <dependency>
+                <groupId>com.faust.ticketing</groupId>
+                <artifactId>ticketing-persistence</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.faust.ticketing</groupId>
+                <artifactId>ticketing-rest</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <type>war</type>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.modelmapper</groupId>
+            <artifactId>modelmapper</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss.resteasy</groupId>
+            <artifactId>resteasy-jaxrs</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.jaxrs</groupId>
+            <artifactId>jackson-jaxrs-json-provider</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
+            <version>${version.freemarker}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-api</artifactId>
+            <version>${version.jjwt-api}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-impl</artifactId>
+            <version>${version.jjwt-impl}</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-jackson</artifactId>
+            <version>${version.jjwt-jackson}</version>
+            <scope>runtime</scope>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,23 @@
+{
+  "title": "Categories",
+  "category": "Category",
+  "newCategory": "New category",
+  "createCategory": "Create new",
+  "message": {
+    "created": "Category \"{{categoryName}}\" is created.",
+    "deleted": "Category \"{{categoryName}}\" is deleted.",
+    "updated": "Category \"{{categoryName}}\" is updated."
+  },
+  "name": {
+    "name": "Category name",
+    "placeholder": "Name"
+  },
+  "assignUser": "Assign user",
+  "assignedUsers": "Assigned users",
+  "validation": {
+    "userRequired": "You need to select a user"
+  },
+  "selectUser": "Select user",
+  "noAssignedUsers": "There are no users assigned to this category.",
+  "userAlreadyAssigned": "Already assigned"
+}

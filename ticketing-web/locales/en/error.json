@@ -1,0 +1,10 @@
+{
+  "404": {
+    "title": "404 Error",
+    "message": "Has not been found!"
+  },
+  "500": {
+    "title": "500 Error",
+    "message": "Has not been found!"
+  }
+}

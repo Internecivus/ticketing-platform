@@ -1,0 +1,73 @@
+{
+  "change": "Promijeni",
+  "created": "Stvorio",
+  "updated": "Zadnja promjena",
+  "domain": "DOMAIN",
+  "version": "v{{major}}.{{minor}}",
+  "action": {
+    "ok": "U redu",
+    "close": "Zatvori",
+    "create": "Napravi",
+    "createProgress": "Stvaranje...",
+    "cancel": "Odustani",
+    "cancelProgress": "Odustajanje..."
+  },
+  "validation": {
+    "required": "Ovo polje je nužno.",
+    "email": "Nije unesena ispravna email adresa."
+  },
+  "nav": {
+    "title": "Zadaci",
+    "admin": {
+      "administration": "Administracija",
+      "users": "Korisnici",
+      "categories": "Kategorije"
+    },
+    "myTickets": "Moji Zadaci",
+    "allTickets": "Svi Zadaci",
+    "createTicket": "Novi Zadatak",
+    "logout": "Odjava",
+    "account": "Moj korisnički račun"
+  },
+  "footer": {
+    "copyright": "\u00A9 {{year}} {{domain}}. Sva prava pridržana."
+  },
+  "language" : {
+    "en": "Engleski",
+    "hr": "Hrvatski"
+  },
+  "dataTable": {
+    "noData": "Nema podataka."
+  },
+  "actions": {
+    "save": "Spremi",
+    "savingProgress": "Spremanje...",
+    "create": "Napravi",
+    "createProgress": "Stvaranje...",
+    "deleteProgress": "Brisanje...",
+    "close": "Zatvori",
+    "delete": "Izbriši",
+    "assign": "Dodaj",
+    "resolve": "Zatvori"
+  },
+  "yes": "Da",
+  "no": "Ne",
+  "message": {
+    "confirmDelete": {
+      "confirmation": "Jeste li sigurni da želite obrisati?"
+    }
+  },
+  "groups": {
+    "name": {
+      "Administrator": "Administrator",
+      "Agent": "Agent",
+      "Customer Support": "Korisnička podrška",
+      "Manager": "Menadžer"
+    }
+  },
+  "none": "Nijedan",
+  "404": {
+    "title": "Greška 404",
+    "message": "Tražena stranica nije nađena."
+  }
+}

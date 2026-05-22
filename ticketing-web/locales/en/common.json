@@ -1,0 +1,73 @@
+{
+  "change": "Change",
+  "created": "Created",
+  "updated": "Last Update",
+  "domain": "DOMAIN",
+  "version": "v{{major}}.{{minor}}",
+  "action": {
+    "ok": "OK",
+    "close": "Close",
+    "create": "Create",
+    "createProgress": "Creating...",
+    "cancel": "Cancel",
+    "cancelProgress": "Canceling..."
+  },
+  "validation": {
+    "required": "This field is required.",
+    "email": "Valid email address required."
+  },
+  "nav": {
+    "title": "Ticketing",
+    "admin": {
+      "administration": "Administration",
+      "users": "Users",
+      "categories": "Categories"
+    },
+    "myTickets": "My Tickets",
+    "allTickets": "All Tickets",
+    "createTicket": "Create Ticket",
+    "logout": "Logout",
+    "account": "My account"
+  },
+  "footer": {
+    "copyright": "\u00A9 {{year}} {{domain}}. All rights reserved."
+  },
+  "language" : {
+    "en": "English",
+    "hr": "Croatian"
+  },
+  "dataTable": {
+    "noData": "No data."
+  },
+  "actions": {
+    "save": "Save",
+    "savingProgress": "Saving...",
+    "create": "Create",
+    "createProgress": "Creating...",
+    "deleteProgress": "Deleting...",
+    "close": "Close",
+    "delete": "Delete",
+    "assign": "Assign",
+    "resolve": "Resolve"
+  },
+  "yes": "Yes",
+  "no": "No",
+  "message": {
+    "confirmDelete": {
+      "confirmation": "Are you sure you want to delete this?"
+    }
+  },
+  "groups": {
+    "name": {
+      "Administrator": "Administrator",
+      "Agent": "Agent",
+      "Customer Support": "Customer Support",
+      "Manager": "Manager"
+    }
+  },
+  "none": "None",
+  "404": {
+    "title": "Error 404",
+    "message": "This page cannot be found."
+  }
+}

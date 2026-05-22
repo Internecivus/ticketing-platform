@@ -1,0 +1,2 @@
+Contact: security@test.com
+Preferred-Languages: en, de, hr

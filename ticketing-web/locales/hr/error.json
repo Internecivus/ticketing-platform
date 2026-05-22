@@ -1,0 +1,10 @@
+{
+  "404": {
+    "title": "404 Greška",
+    "message": "Stranica nije nađena!"
+  },
+  "500": {
+    "title": "500 Greška",
+    "message": "Stranica nije nađena!"
+  }
+}

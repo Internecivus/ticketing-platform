@@ -1,0 +1,5 @@
+-- CREATE
+--
+-- CREATE TRIGGER category_stamp_updated AFTER UPDATE ON category
+--     FOR EACH THROW
+--     EXECUTE category_stamp_updated();

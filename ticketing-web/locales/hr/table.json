@@ -1,0 +1,10 @@
+{
+  "username": "Korisničko ime",
+  "email": "Email",
+  "name": "Naziv",
+  "title": "Naslov",
+  "assignedUser": "Izvršitelj",
+  "priority": "Prioritet",
+  "status": "Status",
+  "category": "Kategorija"
+}

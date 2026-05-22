@@ -1,0 +1,41 @@
+{
+  "ticket": "Ticket",
+  "createTicket": "Create Ticket",
+  "resolvedDate": "Resolved date",
+  "priority": {
+    "LOW": "Low",
+    "MEDIUM": "Medium",
+    "HIGH": "High",
+    "name": "Priority",
+    "placeholder": "Select Priority"
+  },
+  "status": {
+    "UNASSIGNED": "Unassigned",
+    "ASSIGNED": "Assigned",
+    "RESOLVED": "Resolved",
+    "name": "Status",
+    "placeholder": "Select Status"
+  },
+  "title": {
+    "name": "Title",
+    "placeholder": "Title"
+  },
+  "content": {
+    "name": "Content",
+    "placeholder": "Describe the issue with detail and accuracy"
+  },
+  "category": {
+    "name": "Category",
+    "placeholder": "Select Category"
+  },
+  "assignedUser": {
+    "name": "Assigned User",
+    "placeholder": "Assign a User"
+  },
+  "message": {
+    "created": "Ticket \"{{title}}\" is created",
+    "deleted": "Ticket \"{{title}}\" is deleted",
+    "updated": "Ticket \"{{title}}\" is updated"
+  },
+  "backToList": "Back to all"
+}

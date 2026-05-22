@@ -1,0 +1,23 @@
+{
+  "title": "Kategorije",
+  "category": "Kategorija",
+  "newCategory": "Nova kategorija",
+  "createCategory": "Nova kategorija",
+  "message": {
+    "created": "Kategorija \"{{categoryName}}\" je napravljena.",
+    "deleted": "Kategorija \"{{categoryName}}\" je izbrisana.",
+    "updated": "Kategorija \"{{categoryName}}\" je izmijenjena."
+  },
+  "name": {
+    "name": "Ime kategorije",
+    "placeholder": "Ime"
+  },
+  "assignUser": "Dodaj izvršitelja",
+  "assignedUsers": "Dodani izvršitelji",
+  "validation": {
+    "userRequired": "Trebate izabrati korisnika"
+  },
+  "selectUser": "Izaberi korisnika",
+  "noAssignedUsers": "Nema dodanih izvršitelja",
+  "userAlreadyAssigned": "Već dodan"
+}

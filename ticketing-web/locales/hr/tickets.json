@@ -1,0 +1,41 @@
+{
+  "ticket": "Zadatak",
+  "createTicket": "Novi zadatak",
+  "resolvedDate": "Datum rješavanja",
+  "priority": {
+    "LOW": "Niski",
+    "MEDIUM": "Srednji",
+    "HIGH": "Visoki",
+    "name": "Prioritet",
+    "placeholder": "Izaberite prioritet"
+  },
+  "status": {
+    "UNASSIGNED": "Bez izvršitelja",
+    "ASSIGNED": "U radu",
+    "RESOLVED": "Riješeno",
+    "name": "Status",
+    "placeholder": "Izaberite status"
+  },
+  "title": {
+    "name": "Naslov",
+    "placeholder": "Naslov"
+  },
+  "content": {
+    "name": "Sadržaj",
+    "placeholder": "Detaljno opišite sadržaj zadatka"
+  },
+  "category": {
+    "name": "Kategorija",
+    "placeholder": "Izaberite kategoriju"
+  },
+  "assignedUser": {
+    "name": "Izvršitelj",
+    "placeholder": "Izaberite izvršitelja"
+  },
+  "message": {
+    "created": "Zadatak \"{{title}}\" je napravljen",
+    "deleted": "Zadatak \"{{title}}\" je izbrisan",
+    "updated": "Zadatak \"{{title}}\" je izmijenjena"
+  },
+  "backToList": "Natrag na sve"
+}

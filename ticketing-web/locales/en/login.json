@@ -1,0 +1,15 @@
+{
+  "title": "Login",
+  "login": "Login",
+  "loginProgress": "Logging...",
+  "forgotPassword": "Forgot your password?",
+  "email": {
+    "placeholder": "Email"
+  },
+  "usernameOrEmail": {
+    "placeholder": "Username or email"
+  },
+  "password": {
+    "placeholder": "Password"
+  }
+}

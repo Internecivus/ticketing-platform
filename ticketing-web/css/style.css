@@ -1,0 +1,156 @@
+:root {
+  --shade-1: #252525;
+  --shade-2: #80B0A9;
+  --shade-3: #CDE0DD;
+  --shade-4: #006856;
+  --shade-5: #007A66;
+  --shade-6: #FF6400;
+}
+
+html, body {
+  height: 100%;
+}
+
+main {
+  flex-grow: 1;
+}
+
+#__next {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+#nprogress .bar {
+  background: var(--shade-6) !important;
+}
+
+.app-footer {
+  font-size: 0.75rem;
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: var(--shade-3);
+  color: var(--shade-1);
+}
+
+.modal-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-loading--xs {
+  height: 20rem;
+}
+
+.modal-loading--md {
+  height: 30rem;
+}
+
+.modal-loading--lg {
+  height: 50rem;
+}
+
+.multiple-checkbox {
+  height: auto;
+}
+
+.data-table-loader-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 900;
+  opacity: 0.6;
+  text-align: center;
+  background-color: gray;
+}
+
+.data-table-loader-overlay > .data-table-loader {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.data-table {
+  position: relative;
+}
+
+@media (min-width: 992px) {
+
+}
+
+
+
+
+.page-content {
+  margin-top: 40px;
+}
+
+table {
+  font-size: 0.9rem;
+}
+
+.icon-container-table {
+  position: relative;
+}
+
+.icon-container-table > button, .icon-container-table > a {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+
+.icon-container-table:before {
+   content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.icon-container {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.icon-container > button {
+  padding: .05rem .25rem;
+}
+
+.icon-container > a {
+  display: inline-block;
+  line-height: 0;
+}
+
+.table-row-clickable {
+  cursor: pointer;
+}
+
+.icon {
+  color: whitesmoke;
+}
+
+i.icon-md {
+  font-size: 2em;
+}
+
+i.icon-sm {
+  font-size: 1.5em;
+}
+
+i.icon-xs {
+  font-size: 1em;
+}
+
+.modal-embedded {
+  margin-top: 3em;
+  z-index: 1070 !important;
+}
+
+.modal-embedded-backdrop {
+  z-index: 1060 !important;
+}

@@ -1,0 +1,24 @@
+{
+  "workload": "Workload",
+  "user": "User",
+  "title": "Users",
+  "createUser": "Create User",
+  "newUser": "New User",
+  "username": {
+    "name": "Username",
+    "placeholder": "Username"
+  },
+  "email": {
+    "name": "Email",
+    "placeholder": "Email"
+  },
+  "groups": {
+    "name": "Groups",
+    "placeholder": "Groups"
+  },
+  "message": {
+    "deleted": "User \"{{username}}\" is deleted.",
+    "created": "User \"{{username}}\" is created.",
+    "updated": "User \"{{username}}\" is updated."
+  }
+}

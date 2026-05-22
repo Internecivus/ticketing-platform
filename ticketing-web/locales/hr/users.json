@@ -1,0 +1,24 @@
+{
+  "workload": "Radno opterećenje",
+  "user": "Korisnik",
+  "title": "Korisnici",
+  "createUser": "Novi korisnik",
+  "newUser": "Novi korisnik",
+  "username": {
+    "name": "Korisničko ime",
+    "placeholder": "Korisničko ime"
+  },
+  "email": {
+    "name": "Email",
+    "placeholder": "Email"
+  },
+  "groups": {
+    "name": "Grupe",
+    "placeholder": "Grupe"
+  },
+  "message": {
+    "deleted": "Korisnik \"{{username}}\" je izbrisan.",
+    "created": "Korisnik \"{{username}}\" je napravljen.",
+    "updated": "Korisnik \"{{username}}\" je izmijenjena."
+  }
+}

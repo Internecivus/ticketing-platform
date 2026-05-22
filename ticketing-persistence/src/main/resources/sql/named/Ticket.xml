@@ -1,0 +1,13 @@
+<entity-mappings version="1.0" xmlns="http://java.sun.com/xml/ns/persistence/orm"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_1_0.xsd">
+    <named-query name="Ticket.findAll">
+        <query>SELECT t FROM Ticket t</query>
+    </named-query>
+    <named-query name="Ticket.findByUser">
+        <query>SELECT t FROM Ticket t JOIN FETCH t.assignedUser user where user.id = :userId</query>
+    </named-query>
+    <named-query name="Ticket.findAllUnassigned">
+        <query>SELECT t FROM Ticket t WHERE t.assignedUser = null</query>
+    </named-query>
+</entity-mappings>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.faust.ticketing</groupId>
+        <artifactId>ticketing-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>ticketing-ear</artifactId>
+    <packaging>ear</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.faust.ticketing</groupId>
+            <artifactId>ticketing-core</artifactId>
+            <type>ejb</type>
+        </dependency>
+        <dependency>
+            <groupId>com.faust.ticketing</groupId>
+            <artifactId>ticketing-persistence</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.faust.ticketing</groupId>
+            <artifactId>ticketing-rest</artifactId>
+            <type>war</type>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.wildfly.plugins</groupId>
+                <artifactId>wildfly-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <artifactId>maven-ear-plugin</artifactId>
+                <configuration>
+                    <skinnyWars>false</skinnyWars>
+                    <modules>
+                        <jarModule>
+                            <groupId>com.faust.ticketing</groupId>
+                            <artifactId>ticketing-persistence</artifactId>
+                        </jarModule>
+                        <ejbModule>
+                            <groupId>com.faust.ticketing</groupId>
+                            <artifactId>ticketing-core</artifactId>
+                        </ejbModule>
+                        <webModule>
+                            <groupId>com.faust.ticketing</groupId>
+                            <artifactId>ticketing-rest</artifactId>
+                            <contextRoot>/</contextRoot>
+                        </webModule>
+                    </modules>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

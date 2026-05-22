@@ -1,0 +1,15 @@
+{
+  "title": "Prijava",
+  "login": "Prijava",
+  "loginProgress": "Prijavljivanje...",
+  "forgotPassword": "Zaboravili ste zaporku?",
+  "email": {
+    "placeholder": "Email"
+  },
+  "usernameOrEmail": {
+    "placeholder": "Korisničko ime ili email"
+  },
+  "password": {
+    "placeholder": "Zaporka"
+  }
+}
